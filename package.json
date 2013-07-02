@@ -1,0 +1,40 @@
+{
+  "name": "wechat_push",
+  "version": "0.0.1",
+  "description": "Wechat Push",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-all",
+    "blanket": {
+      "pattern": "wechat_push/lib",
+      "data-cover-flags": {
+        "debug": false
+      }
+    },
+    "travis-cov": {
+      "threshold": 99
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/JacksonTian/wechat_push.git"
+  },
+  "keywords": [
+    "Wechat",
+    "Push"
+  ],
+  "author": "Jackson Tian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JacksonTian/wechat_push/issues"
+  },
+  "dependencies": {
+    "urllib": "0.3.4"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*",
+    "blanket": "*",
+    "travis-cov": "*"
+  }
+}
