@@ -7,6 +7,7 @@ var Pusher = require('wechat_push');
 
 var pusher = new Pusher(username, password);
 pusher.login(function (err) {
+  // send的第一个参数为fakeId，请自行搞定
   pusher.send('604347680', '搞定push', function (err, data) {
   	// 发送完成
     done();
