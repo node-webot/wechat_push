@@ -20,3 +20,8 @@ pusher.login(function (err) {
 
 ## License
 The MIT License
+
+## 捐赠
+如果您觉得本模块对您有帮助，欢迎请作者一杯咖啡：
+
+[![捐赠Wechat Push](https://img.alipay.com/sys/personalprod/style/mc/btn-index.png)](https://me.alipay.com/jacksontian)
