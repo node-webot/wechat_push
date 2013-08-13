@@ -29,7 +29,9 @@
     "url": "https://github.com/JacksonTian/wechat_push/issues"
   },
   "dependencies": {
-    "urllib": "0.3.4"
+    "cheerio": "~0.12.1",
+    "urllib": "~0.5.0",
+    "json3": "~3.2.5"
   },
   "devDependencies": {
     "mocha": "*",
