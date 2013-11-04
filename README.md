@@ -1,5 +1,7 @@
 Wechat Push
 =============
+**微信已经提供了客服消息发送的接口，如需调用，请参见[wechat模块](https://github.com/node-webot/wechat)。本模块将不再维护。**
+
 使用方式如下：
 
 ```
